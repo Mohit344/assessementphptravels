@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [phpTravells]">
+  <test thread-count="5" name="phpTravelsTest(failed)">
+    <classes>
+      <class name="com.phptravels.testscript.PhpTravelsSript">
+        <methods>
+          <include name="configSetup"/>
+          <include name="tearDown"/>
+          <include name="clickInvoice"/>
+        </methods>
+      </class> <!-- com.phptravels.testscript.PhpTravelsSript -->
+    </classes>
+  </test> <!-- phpTravelsTest(failed) -->
+</suite> <!-- Failed suite [phpTravells] -->
